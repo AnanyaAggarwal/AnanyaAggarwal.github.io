@@ -9,6 +9,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    color: #3fada8;
 }
 body {
     margin: 60px auto;
