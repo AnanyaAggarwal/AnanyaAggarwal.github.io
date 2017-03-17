@@ -90,6 +90,7 @@ p.enlarge span {
     color: #000
 }
 .contact-info { 
+	position: right;
     margin-top: 7px; 
 }
 .first h2 { 
