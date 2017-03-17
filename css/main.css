@@ -1,16 +1,27 @@
+* {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
 nav ul {
     font-family:'Helvetica', Arial, Sans-Serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
     font-family: kohinoor;
-    color: #3fada8;
 }
 nav ul li {
     display: inline;
     margin-right: 20px;
-    color: #3fada8;
 }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 body {
     margin: 60px auto;
     width: 70%;
@@ -54,9 +65,10 @@ h1, h2, h3, h4 {
     color: #333; 
 }
 p {
-    font-size: 100%;
-    line-height: 18px; 
-    padding-right: 3em;
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
 }
 a { 
     color: #990003
@@ -130,7 +142,7 @@ a#pdf:hover {
     padding-bottom: 1em; 
     border-bottom: 1px solid #ccc;
 }
-.job h4 { 
+.job h5 { 
     position: absolute; 
     top: 0.35em;
     right: 0 
